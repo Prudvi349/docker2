@@ -28,7 +28,7 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-         image: prudhvi349/sampleimage
+         image: prudhvi349/sampleimage:latest
          tags: latest
          registry: docker.io
          dockerfile: Dockerfile
